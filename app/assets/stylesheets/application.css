@@ -4,4 +4,12 @@
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
  *= require_tree . 
+ *= require './base'
 */
+#flash_notice {
+  color: #fff;
+  background-color: #19EE00; 
+  border: thin solid #10A800;
+  text-align:center;
+  padding: 5px;
+}
