@@ -5,3 +5,7 @@
 require File.expand_path('../config/application', __FILE__)
 
 BlogApp::Application.load_tasks
+
+Rake::TestTask.new do |t|
+  t.pattern = 'spec/**/*_spec.rb'
+end
